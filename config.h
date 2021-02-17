@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "mononoki Nerd Font Mono:pixelsize=27:antialias=true:autohint=true";
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -122,6 +122,8 @@ float alpha = 0.8;
 	"#555555",
 }*/
 
+
+// Manually patched dracula colours
 static const char *colorname[] = {
 	"#000000",
 	"#ff5555",
@@ -147,7 +149,7 @@ static const char *colorname[] = {
 
 
 /*
- * Default colors (colorname index)
+ * Default dracula colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 257;
